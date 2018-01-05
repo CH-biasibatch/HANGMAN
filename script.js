@@ -5,14 +5,15 @@ var  guessedLetters = [];
 
 
 function startGame() {
-    if (guessedLetters == []) word = words[Math.floor(Math.random()* words.length)];
+    word = words[Math.floor(Math.random()* words.length)];
     document.getElementById("board").innerHTML = printWord();
 }
 
 function guessLetter(letter) {
     letter = letter.toLowerCase();
     guessedLetters += letter;
-    startGame();
+    document.getElementById("board").innerHTML = printWord();
+
 }
 
 
@@ -27,4 +28,3 @@ function printWord(){
     }
     return retWord;
 }
-
