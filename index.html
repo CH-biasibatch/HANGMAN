@@ -14,41 +14,43 @@
 
 <h1><b>hangman</b></h1>
 
-
 <button onclick="startGame()">START!</button>
 
-<hr>
+    <div id="letters">
+        <button id="a" onclick="guessLetter(this.id)">A</button>
+        <button id="b" onclick="guessLetter(this.id)">B</button>
+        <button id="c" onclick="guessLetter(this.id)">C</button>
+        <button id="d" onclick="guessLetter(this.id)">D</button>
+        <button id="e" onclick="guessLetter(this.id)">E</button>
+        <button id="f" onclick="guessLetter(this.id)">F</button>
+        <button id="g" onclick="guessLetter(this.id)">G</button>
+        <button id="h" onclick="guessLetter(this.id)">H</button>
+        <button id="i" onclick="guessLetter(this.id)">I</button>
+        <button id="j" onclick="guessLetter(this.id)">J</button>
+        <button id="k" onclick="guessLetter(this.id)">K</button>
+        <button id="l" onclick="guessLetter(this.id)">L</button>
+        <button id="m" onclick="guessLetter(this.id)">M</button>
+        <button id="n" onclick="guessLetter(this.id)">N</button>
+        <button id="o" onclick="guessLetter(this.id)">O</button>
+        <button id="p" onclick="guessLetter(this.id)">P</button>
+        <button id="q" onclick="guessLetter(this.id)">Q</button>
+        <button id="r" onclick="guessLetter(this.id)">R</button>
+        <button id="s" onclick="guessLetter(this.id)">S</button>
+        <button id="t" onclick="guessLetter(this.id)">T</button>
+        <button id="u" onclick="guessLetter(this.id)">U</button>
+        <button id="v" onclick="guessLetter(this.id)">V</button>
+        <button id="w" onclick="guessLetter(this.id)">W</button>
+        <button id="x" onclick="guessLetter(this.id)">X</button>
+        <button id="y" onclick="guessLetter(this.id)">Y</button>
+        <button id="z" onclick="guessLetter(this.id)">Z</button>
+    </div>
 
-<div id="letters">
-    <button id="A" onclick="guessLetter(this.id)">A</button>
-    <button id="B" onclick="guessLetter(this.id)">B</button>
-    <button id="C" onclick="guessLetter(this.id)">C</button>
-    <button id="D" onclick="guessLetter(this.id)">D</button>
-    <button id="E" onclick="guessLetter(this.id)">E</button>
-    <button id="F" onclick="guessLetter(this.id)">F</button>
-    <button id="G" onclick="guessLetter(this.id)">G</button>
-    <button id="H" onclick="guessLetter(this.id)">H</button>
-    <button id="I" onclick="guessLetter(this.id)">I</button>
-    <button id="J" onclick="guessLetter(this.id)">J</button>
-    <button id="K" onclick="guessLetter(this.id)">K</button>
-    <button id="L" onclick="guessLetter(this.id)">L</button>
-    <button id="M" onclick="guessLetter(this.id)">M</button>
-    <button id="N" onclick="guessLetter(this.id)">N</button>
-    <button id="O" onclick="guessLetter(this.id)">O</button>
-    <button id="P" onclick="guessLetter(this.id)">P</button>
-    <button id="Q" onclick="guessLetter(this.id)">Q</button>
-    <button id="R" onclick="guessLetter(this.id)">R</button>
-    <button id="S" onclick="guessLetter(this.id)">S</button>
-    <button id="T" onclick="guessLetter(this.id)">T</button>
-    <button id="U" onclick="guessLetter(this.id)">U</button>
-    <button id="V" onclick="guessLetter(this.id)">V</button>
-    <button id="W" onclick="guessLetter(this.id)">W</button>
-    <button id="X" onclick="guessLetter(this.id)">X</button>
-    <button id="Y" onclick="guessLetter(this.id)">Y</button>
-    <button id="Z" onclick="guessLetter(this.id)">Z</button>
-</div>
 
-<div id="board"></div>
+    <div id="board"></div>
+    <div id="guesses"></div>
+    <div id="messageLOSS"></div>
+    <div id="messageWIN"></div>
+    <div id="imageHangman"></div>
 
 
 </body>

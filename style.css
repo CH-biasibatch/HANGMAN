@@ -1,3 +1,45 @@
 body {
-    background-color: rgba(104, 173, 195, 0.52);
+    background-color: rgba(75, 94, 89, 0.52);
+    font-family: Avenir;
+    text-align: center;
+    vertical-align: center;
+}
+
+button {
+    color: black;
+    font-family: Avenir;
+    font-size: 20px;
+
+}
+
+button:hover{
+    color: white;
+    background-color: rgba(75, 94, 89, 0.71);
+}
+
+#button {
+    width: 40px;
+    color: black;
+}
+
+#board {
+    font-size: 50px;
+}
+
+#guesses {
+    font-size: 20px;
+}
+
+#messageLOSS {
+    text-weight: bold;
+    font-size: 40px;
+}
+
+#messageWIN {
+    text-weight: bold;
+    font-size: 40px;
+}
+
+div {
+    padding: 10px;
 }
