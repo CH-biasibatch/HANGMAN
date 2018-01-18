@@ -1,5 +1,5 @@
 var word = "";
-var words = ["grapefruit","bagpipes","dwarves","elephant","galaxy","voodoo","wristwatch","yoked"];
+var words = ["grapefruit","bagpipes","dwarves","elephant","galaxy","voodoo","wristwatch","yoked","abruptly","daiquiri","unzip","quixotic","phlegm","pajama","yachtsman","strengths"];
 var guesses = 8;
 var guessedLetters = [];
 
